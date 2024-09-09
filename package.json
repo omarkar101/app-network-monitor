@@ -4,11 +4,13 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron dist/main.js",
+    "build": "tsc"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@types/electron": "^1.6.10",
     "electron": "^32.0.2"
   }
 }
